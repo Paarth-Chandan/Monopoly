@@ -1,0 +1,228 @@
+.rows {
+  display: flex;
+  width: 1000px;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.board_square {
+  /*display:inline-block;*/
+  width: 200px;
+  height: 195px;
+  background-color: #fef3e2;
+  border: solid;
+}
+#blank1,
+#blank2,
+#blank3,
+#blank4,
+#cellturn,
+#lastturn,
+#currentstanding,
+#botright {
+  /* background-color: white; */
+  background-color: #d3f1df;
+}
+
+/*#cellturn, #lastturn, #currentstanding{
+    border:solid;
+}*/
+
+#square1 {
+  background-image: url("images/go.jpg");
+  background-size: cover;
+  z-index: -1;
+}
+
+#square1_residents {
+  z-index: 3;
+}
+
+body {
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url("images/constitution.jpg");
+  background-size: cover;
+  justify-content: center;
+}
+
+#blank1 {
+  overflow: visible;
+  z-index: 1;
+}
+
+#blank2,
+#blank3,
+#blank4 {
+  z-index: -1;
+}
+/*#image{
+    position:absolute;
+    background-image:url('images/monopolybig.jpg');
+    width:398px;
+    height:396.6px;
+    margin:0px;
+    padding:0px;
+    background-size:cover;
+    top:209px;
+    left:652px;
+    border:solid 1px;
+
+}*/
+/*.game_status{*/
+/*display:inline-block;*/
+/*}*/
+
+#square9 {
+  position: relative;
+}
+
+#square2 div {
+  /* background-color: #f0bb78; */
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square3 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square4 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square5 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square6 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square7 {
+  background-color: #ff4d4d !important; /* Bright red color */
+  width: 200px;
+  height: 195px;
+  border: solid;
+}
+
+#square7 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square8 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square9 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square10 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square11 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#square12 div {
+  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  width: 100%;
+  height: 45px;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+.square_name {
+  text-align: center;
+}
+
+.square_value {
+  text-align: center;
+}
+
+.square_residents {
+  text-align: center;
+}
+
+.game_board,
+.rows {
+  /*   margin:auto;*/
+  padding: 0px;
+}
+
+.game_board {
+  max-width: 1000px;
+  margin: 300px auto;
+  border: solid;
+}
+
+/* #square4,
+#square5,
+#square6 {
+  transform: rotate(90deg);
+}
+
+#square7,
+#square8,
+#square9 {
+  transform: rotate(180deg);
+}
+
+#square10,
+#square11,
+#square12 {
+  transform: rotate(-90deg);
+} */
+
+.button {
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
